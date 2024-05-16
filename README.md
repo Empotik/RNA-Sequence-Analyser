@@ -287,7 +287,7 @@ An index has been created on the gene_id column for improved query performance.
 - Fixed an issue where exiting the program by the user did not delete the database.
 - Improved the auto-delete database `gene_data.db` feature at exit.
 
-### [Version 5.0 - March 29, 2023](old/RNASeqMatch5.py)
+### [Version 5.0 - March 29, 2023](RNASeqMatch.py)
 
 - Added functionality to read input files from a specified directory.
 - Improved database.
