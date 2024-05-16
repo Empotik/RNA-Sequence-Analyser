@@ -12,6 +12,7 @@ The following dependencies are required to run the application:
 
 - sqlite3
 - pandas
+- xlrd
 
 Certainly! Here's the revised section with grammatical improvements, mentioning CSV compatibility, and providing clearer instructions:
 
@@ -321,4 +322,4 @@ For questions, feedback, or issues, contact: myemail@mydomain.tld
 
 ## Acknowledgments
 
-The source code of this project was originally from [pmukneam](https://github.com/pmukneam), a Data Science student at Pitzer College. It was originally available at [pmukneam/Bio-RNA-seq-analysis](https://github.com/pmukneam/Bio-RNA-seq-analysis). The [pandas](https://github.com/pandas-dev/pandas) and [SQLite](https://github.com/sqlite/sqlite) library were used in the development of this project.
+The source code of this project was originally from [pmukneam](https://github.com/pmukneam), a Data Science student at Pitzer College. It was originally available at [pmukneam/Bio-RNA-seq-analysis](https://github.com/pmukneam/Bio-RNA-seq-analysis). [pandas](https://github.com/pandas-dev/pandas), [SQLite](https://github.com/sqlite/sqlite), [xlrd](https://github.com/python-excel/xlrd), and [openpyxl](https://github.com/theorchard/openpyxl) libraries were used in the development of this project.
