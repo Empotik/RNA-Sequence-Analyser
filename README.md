@@ -13,8 +13,7 @@ The following dependencies are required to run the application:
 - sqlite3
 - pandas
 - xlrd
-
-Certainly! Here's the revised section with grammatical improvements, mentioning CSV compatibility, and providing clearer instructions:
+- openpyxl
 
 ## Input Files
 
@@ -213,8 +212,6 @@ An index has been created on the gene_id column for improved query performance.
     - You should always check if the `temp/gene_data.db` actually got deleted.
     - If the application was not terminated as described in step 11, the database might still exist on your system. You can manually delete the temporary directory `temp` in the current directory.
 
-------
-
 ## Future work
 
 - **GUI implementation:** The application can be further developed to include a graphical user interface (GUI) to provide a better user experience.
@@ -224,8 +221,6 @@ An index has been created on the gene_id column for improved query performance.
 - **Expanding functionality to handle different input file formats:** Although the program currently handles specific file formats, adding support for additional formats can increase the versatility of the application.
 - **Adding statistical analysis features:** Integrating statistical analysis capabilities would provide users with more insights into their data and enhance the utility of the application.
 - **Cloud integration:** Connecting the application with cloud platforms would enable users to access it remotely and facilitate data storage and management. This could be beneficial for collaboration and scalability.
-
-------
 
 ## Version History
 
@@ -304,21 +299,15 @@ An index has been created on the gene_id column for improved query performance.
   - Integrated cleanup with a timeout functionality into the script.
   - Improved responsiveness and efficiency by leveraging threading for parallel task execution.
 
-------
-
 ## License
 
 This project is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE) for more information.
 
 **Note:** This software incorporates code from [pmukneam](https://github.com/pmukneam), used with permission under the terms of the MIT License. This permission supersedes any conflicting license terms from previous versions. See more in Acknowledgments.
 
-------
-
 ## Contact Information
 
 For questions, feedback, or issues, contact: myemail@mydomain.tld
-
-------
 
 ## Acknowledgments
 
