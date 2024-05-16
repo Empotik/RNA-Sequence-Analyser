@@ -125,12 +125,12 @@ An index has been created on the gene_id column for improved query performance.
     You can simply type `1` or `A` or `a` then `Enter` to select `Automatic matching`.
 
     10.1 **Chose `Auto Matching`**
-    - You will be further asked which TXT files to use if there is more than one file exist in `input_data`.
+    - You will be further asked which TXT files to use if more than one file exist in `input_data`.
 
     ```plaintext
     Found 2 TXT files in ./input_data/:
     1. set_of_interest_1.txt
-    2. set_of_interest_1.txt
+    2. set_of_interest_2.txt
     Which TXT file do you want to read from? (Enter a number):
     ```
 
@@ -167,9 +167,9 @@ An index has been created on the gene_id column for improved query performance.
         - When entering the number in the expected format and found
 
         ```plaintext
-        Enter Gene ID: 8690.0
+        Enter Gene ID: 8182.0
         Gene ID being used to search database: 8182.0
-        Result(s) for Cluster-8690.0:
+        Result(s) for Cluster-8182.0:
         File: T15vsC15.xls    Log2FoldChange: 3.14159265358979
         ```
 
@@ -194,7 +194,7 @@ An index has been created on the gene_id column for improved query performance.
     - Cleaning up after you are done to make sure that the database won't unnecessarily take your space. It also can prevent malicious activity from wrongfully accessing the database.
     - Normally, when prompted, exit the application by pressing `'q'` then `Enter`.
     - Alternatively, without being prompted, `'Ctrl+C'` should also properly terminate and clean up at any stage of the program.
-    -To deactivate the virtual environment, run the appropriate command based on your operating system:
+    - To deactivate the virtual environment, run the appropriate command based on your operating system:
 
     On Windows:
 
